@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Techres-Seemt
+
+  Created by Kelvin on 10/04/2023.
+  Copyright © 2023 OVERATE-VNTECH. All rights reserved.
+*/
+//Booking
+"today" = "Today";
+"this_week" = "Tuần này";
+"this_month" = "Tháng này";
+
+
+// GIỚI THIỆU KHÁCH HÀNG CÀI APP
+"lbl_customer_register" = "HÃY ĐƯA MÃ QRCODE NÀY ĐỂ KHÁCH HÀNG QUÉT ĐĂNG KÝ LÀM THÀNH VIÊN CỦA NHÀ HÀNG BẠN.";

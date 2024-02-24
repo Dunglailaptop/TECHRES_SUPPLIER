@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SigninDialogViewController" customModule="TECHRES_SUPPLIER" customModuleProvider="target">
+            <connections>
+                <outlet property="main_view" destination="ail-XM-Nho" id="gCq-cz-cQz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ail-XM-Nho">
+                    <rect key="frame" x="29" y="259" width="335" height="300"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUÝ VUI LÒNG CHỌN MỘT TRONG CÁC HÌNH THỨC SAU ĐỂ ĐƯỢC NHÂN VIÊN TƯ VẤN SỬ DỤNG DỊCH VỤ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asC-0r-HxL">
+                            <rect key="frame" x="25" y="20.000000000000004" width="285" height="56.333333333333343"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="285" id="LtX-nR-lls"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5X5-Pe-mts">
+                            <rect key="frame" x="27.666666666666657" y="86.333333333333314" width="280" height="164"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7Z-EP-spU">
+                                    <rect key="frame" x="0.0" y="0.0" width="280" height="49.333333333333336"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZALO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wk-P0-jvh">
+                                            <rect key="frame" x="118" y="13.999999999999998" width="44" height="21.333333333333329"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQH-1W-LeU">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="49.333333333333336"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="actionChooseReportType:" destination="-1" eventType="touchUpInside" id="HbI-JK-lWH"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.16862745098039217" green="0.40784313725490196" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="FQH-1W-LeU" firstAttribute="leading" secondItem="g7Z-EP-spU" secondAttribute="leading" id="0QL-aM-H4t"/>
+                                        <constraint firstItem="6wk-P0-jvh" firstAttribute="centerX" secondItem="g7Z-EP-spU" secondAttribute="centerX" id="GdT-TK-BBe"/>
+                                        <constraint firstItem="6wk-P0-jvh" firstAttribute="centerY" secondItem="g7Z-EP-spU" secondAttribute="centerY" id="cTr-et-vra"/>
+                                        <constraint firstAttribute="trailing" secondItem="FQH-1W-LeU" secondAttribute="trailing" id="l5e-A8-Z5I"/>
+                                        <constraint firstAttribute="bottom" secondItem="FQH-1W-LeU" secondAttribute="bottom" id="sjB-VX-H8X"/>
+                                        <constraint firstItem="FQH-1W-LeU" firstAttribute="top" secondItem="g7Z-EP-spU" secondAttribute="top" id="vWA-go-yNs"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uzr-jY-Wh4">
+                                    <rect key="frame" x="0.0" y="57.333333333333371" width="280" height="49.333333333333343"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FACEBOOK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxV-T7-iXs">
+                                            <rect key="frame" x="94.666666666666686" y="13.999999999999998" width="90.333333333333314" height="21.333333333333329"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMv-Ku-H3C">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="49.333333333333336"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <connections>
+                                                <action selector="actionChooseReportType:" destination="-1" eventType="touchUpInside" id="Akc-yn-9Re"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="cxV-T7-iXs" firstAttribute="centerX" secondItem="Uzr-jY-Wh4" secondAttribute="centerX" id="0Gk-Dn-5hj"/>
+                                        <constraint firstAttribute="bottom" secondItem="YMv-Ku-H3C" secondAttribute="bottom" id="19V-oI-eJU"/>
+                                        <constraint firstAttribute="trailing" secondItem="YMv-Ku-H3C" secondAttribute="trailing" id="7gB-Wc-vJF"/>
+                                        <constraint firstItem="YMv-Ku-H3C" firstAttribute="top" secondItem="Uzr-jY-Wh4" secondAttribute="top" id="P20-Nr-wYC"/>
+                                        <constraint firstItem="cxV-T7-iXs" firstAttribute="centerY" secondItem="Uzr-jY-Wh4" secondAttribute="centerY" id="lLa-Gn-ees"/>
+                                        <constraint firstItem="YMv-Ku-H3C" firstAttribute="leading" secondItem="Uzr-jY-Wh4" secondAttribute="leading" id="ufg-cQ-Wte"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nub-Ka-zfx">
+                                    <rect key="frame" x="0.0" y="114.66666666666667" width="280" height="49.333333333333329"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOTLINE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwY-df-JGo">
+                                            <rect key="frame" x="103.33333333333334" y="13.999999999999998" width="73.333333333333343" height="21.333333333333329"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myD-UL-TQS">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="49.333333333333336"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <connections>
+                                                <action selector="actionChooseReportType:" destination="-1" eventType="touchUpInside" id="0HZ-Nh-Q6h"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.88235294117647056" green="0.098039215686274508" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="myD-UL-TQS" secondAttribute="bottom" id="0Qx-uD-yCA"/>
+                                        <constraint firstItem="myD-UL-TQS" firstAttribute="leading" secondItem="Nub-Ka-zfx" secondAttribute="leading" id="EF6-8X-0Jy"/>
+                                        <constraint firstItem="CwY-df-JGo" firstAttribute="centerY" secondItem="Nub-Ka-zfx" secondAttribute="centerY" id="HhB-BC-dgo"/>
+                                        <constraint firstAttribute="trailing" secondItem="myD-UL-TQS" secondAttribute="trailing" id="NVx-dt-lDJ"/>
+                                        <constraint firstItem="myD-UL-TQS" firstAttribute="top" secondItem="Nub-Ka-zfx" secondAttribute="top" id="S8s-Yx-oWK"/>
+                                        <constraint firstItem="CwY-df-JGo" firstAttribute="centerX" secondItem="Nub-Ka-zfx" secondAttribute="centerX" id="TxP-8w-udd"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="280" id="1XT-yG-zbw"/>
+                                <constraint firstAttribute="height" constant="164" id="Iir-1o-A2a"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgO-gO-cec">
+                            <rect key="frame" x="92.666666666666686" y="260.33333333333337" width="150" height="19"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="Txw-0i-rt8"/>
+                                <constraint firstAttribute="height" constant="19" id="fF0-9d-48U"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="systemBlueColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Bỏ qua">
+                                <fontDescription key="titleFontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="btn_cancel:" destination="-1" eventType="touchUpInside" id="yGM-cS-1f4"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="5X5-Pe-mts" firstAttribute="top" secondItem="asC-0r-HxL" secondAttribute="bottom" constant="10" id="Geu-WP-dcl"/>
+                        <constraint firstItem="asC-0r-HxL" firstAttribute="top" secondItem="ail-XM-Nho" secondAttribute="top" constant="20" id="THt-26-YS2"/>
+                        <constraint firstItem="lgO-gO-cec" firstAttribute="top" secondItem="5X5-Pe-mts" secondAttribute="bottom" constant="10" id="VTI-Xk-3mq"/>
+                        <constraint firstAttribute="height" constant="300" id="XUi-UK-hOZ"/>
+                        <constraint firstAttribute="width" constant="335" id="ePK-RN-V5Z"/>
+                        <constraint firstItem="asC-0r-HxL" firstAttribute="centerX" secondItem="ail-XM-Nho" secondAttribute="centerX" id="fZc-Tz-6qo"/>
+                        <constraint firstItem="5X5-Pe-mts" firstAttribute="centerX" secondItem="ail-XM-Nho" secondAttribute="centerX" id="ss9-hF-uPH"/>
+                        <constraint firstItem="lgO-gO-cec" firstAttribute="centerX" secondItem="ail-XM-Nho" secondAttribute="centerX" id="uc4-8g-LTb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="separatorColor"/>
+            <constraints>
+                <constraint firstItem="ail-XM-Nho" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eeV-xv-ztX"/>
+                <constraint firstItem="ail-XM-Nho" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="200" id="kRG-YK-1VB"/>
+            </constraints>
+            <point key="canvasLocation" x="-5" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

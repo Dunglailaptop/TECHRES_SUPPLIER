@@ -1,0 +1,6 @@
+framework module MMMTackKit {
+  umbrella header "MMMTackKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

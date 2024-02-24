@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "62E7DF8E-3BDD-49D3-8E1B-5FD7E18C78CE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF3E5B88-865F-4F0F-A0B8-314D0559A988"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Report/DetailedReport/OrderReport/viewModel/OrderReportViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "OrderReportViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DB461BE-607D-48C7-B7BD-DBEB68B487D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/router/ManagementRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "navigateToItemsManagementViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48CC4B54-00A4-497E-8E4E-72CA6FD028DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/router/ManagementRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "navigateToItemsManagementViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD855246-D910-4EFC-A491-C08DC178077E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/PaymentRequest/view/filterDialog/Extension/PaymentRequestFilterViewController + Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "showPopUp(btnShowPopup:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "577DFE96-8592-47D6-A1E4-11B5DA2D67CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/PaymentRequest/CreatePaymentRequest/view/popup/CreatePaymentRequestPopupViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35A9C8A3-16A3-4735-8A28-0FE748BF0096"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/PaymentRequest/CreatePaymentRequest/popup/CreatePaymentRequestPopupViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "scrollViewWillBeginDecelerating(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C25FB7F5-09A2-4256-A987-2C868DACDE72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/ReceiveableAndPayment/CreateReceiptAndPayment/Extension/CreateReceiptAndPaymentViewController + Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "tagRemoveButtonPressed(_:tagView:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34E40AD7-A96C-479E-BDBB-061E1E4C1918"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/DebtManagement/PaymentBillDebt/Extensions/PaymentBillDebt+Extension+CallAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getSupplierWarehouseSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63720BFA-CFD5-4A1E-B857-20D16C9228A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/DebtManagement/PaymentBillDebt/Extensions/PaymentBillDebt+Extension+CallAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getSupplierWarehouseSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2AD2547-46AF-4711-9CE4-8D6D6651A03B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/DebtManagement/AccountsPayable/DetailedAccountsPayable/viewModel/DetailedAccountsPayableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getDetailSupplierOrders()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76450660-3AB8-4FFA-8970-FA2C22EAE884"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/DebtManagement/AccountsPayable/DetailedAccountsPayable/viewModel/DetailedAccountsPayableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "getDetailSupplierOrders()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF179549-0ACA-44BF-BEF0-0306D2140069"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/view/DetailedItemsManagementViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "DetailedItemsManagementViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DF179549-0ACA-44BF-BEF0-0306D2140069 - 65a8c3d5bafb813b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_SUPPLIER.DetailedItemsManagementViewController.lbl_out_of_stock_alert_quan_err.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/view/DetailedItemsManagementViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "DF179549-0ACA-44BF-BEF0-0306D2140069 - 65a8c3d5bafb813b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_SUPPLIER.DetailedItemsManagementViewController.lbl_out_of_stock_alert_quan_err.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/view/DetailedItemsManagementViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "DF179549-0ACA-44BF-BEF0-0306D2140069 - c2d03dbe992490c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_SUPPLIER.DetailedItemsManagementViewController.lbl_out_of_stock_alert_quan_err.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/view/DetailedItemsManagementViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "DF179549-0ACA-44BF-BEF0-0306D2140069 - 237cdd5aa9156ac8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_SUPPLIER.DetailedItemsManagementViewController.lbl_out_of_stock_alert_quan_err.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/view/DetailedItemsManagementViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DF179549-0ACA-44BF-BEF0-0306D2140069 - ffdfddac543e0532"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_SUPPLIER.DetailedItemsManagementViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TECHRES_SUPPLIER.DetailedItemsManagementViewController"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/view/DetailedItemsManagementViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1464">
+               </Location>
+               <Location
+                  uuid = "DF179549-0ACA-44BF-BEF0-0306D2140069 - d103d0c256571d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_SUPPLIER.DetailedItemsManagementViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TECHRES_SUPPLIER.DetailedItemsManagementViewController&gt;"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/view/DetailedItemsManagementViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9F11876-D51E-4283-9235-4DD375E53BAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/ManagementEmployee/DetailEmployee/view/addressDialog/view/AddressDialogOfAccountInforViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "getCitiesList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A9F11876-D51E-4283-9235-4DD375E53BAC - 65409e5d2ed7c87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_SUPPLIER.APIResponse) -&gt; () in TECHRES_SUPPLIER.AddressDialogOfAccountInforViewController.getCitiesList() -&gt; ()"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ManagementEmployee/DetailEmployee/view/addressDialog/view/AddressDialogOfAccountInforViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "884">
+               </Location>
+               <Location
+                  uuid = "A9F11876-D51E-4283-9235-4DD375E53BAC - 65409e5d2ed7c87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_SUPPLIER.APIResponse) -&gt; () in TECHRES_SUPPLIER.AddressDialogOfAccountInforViewController.getCitiesList() -&gt; ()"
+                  moduleName = "TECHRES-SUPPLIER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkhanhhuy/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/MOBILES/iOS/supplier/Supplier/Scenes/Manager/Managements/ManagementEmployee/DetailEmployee/view/addressDialog/view/AddressDialogOfAccountInforViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "900">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6B0CE7F-AC5C-4D74-B992-5AD59567FB33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/ItemsManagement/Create-DetailedItems/Extensions/DetailedItemsManagementViewController+Extension+bindTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "registerCellAndBindTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BA17270-AF45-4EE6-A9E4-1910CBC426B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/PaymentRequest/CreatePaymentRequest/Extension/CreatePaymentRequest + Extension + registerCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "registerCell()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76A486EB-9AC9-43A4-BFB5-F94F27B8EAEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supplier/Scenes/Manager/Managements/PaymentRequest/CreatePaymentRequest/view/CreatePaymentRequestViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "mapData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

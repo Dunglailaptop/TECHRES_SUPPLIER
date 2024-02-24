@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EnterOTPViewController" customModule="SEEMT" customModuleProvider="target">
+            <connections>
+                <outlet property="OTP_text_field_view" destination="FXj-bG-QDl" id="NSe-fW-dog"/>
+                <outlet property="btn_send_OTP_again" destination="rzD-tP-oef" id="s7p-Nf-4Ve"/>
+                <outlet property="lbl_count_down_value" destination="A3z-jL-8wk" id="vAh-eT-nfs"/>
+                <outlet property="lbl_time_to_lock_OPT_View" destination="a2E-HK-q3Y" id="MEW-UV-OkP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="j1A-Az-zUh"/>
+                <outlet property="view_OTP_count_down" destination="bko-ID-tPz" id="eA4-aT-Rsf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-background" translatesAutoresizingMaskIntoConstraints="NO" id="GNy-ds-tFK">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-logo" translatesAutoresizingMaskIntoConstraints="NO" id="pa4-IO-FQR">
+                    <rect key="frame" x="83.666666666666686" y="147" width="223" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nhập mã OTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIk-HL-zHg">
+                    <rect key="frame" x="144.66666666666666" y="232.66666666666666" width="100.66666666666666" height="19.333333333333343"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FXj-bG-QDl" userLabel="OTP Field View" customClass="OTPFieldView" customModule="OTPFieldView">
+                    <rect key="frame" x="45" y="262" width="300" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="BNY-sw-G8H"/>
+                        <constraint firstAttribute="height" constant="40" id="rGk-gn-abE"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2E-HK-q3Y">
+                    <rect key="frame" x="350" y="272" width="19.666666666666686" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.078431372550000003" green="0.38431372549999998" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Một OTP đã được gửi qua SMS tới điện thoại của bạn, hãy mở tin nhắn điện thoại của bạn để xem và nhập OTP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y94-bO-VRv">
+                    <rect key="frame" x="45" y="332" width="300" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="Lps-gj-c69"/>
+                        <constraint firstAttribute="width" constant="300" id="qpg-Da-FHe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Không nhận được OTP?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKk-yo-Hrq">
+                    <rect key="frame" x="45" y="427" width="300" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="e67-hB-kYh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzD-tP-oef">
+                    <rect key="frame" x="45" y="458" width="300" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="Wk1-Fw-XfT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Nhấn vào đây để gửi lại mã OTP">
+                        <color key="titleColor" red="0.078431372549019607" green="0.38431372549019605" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionClickToGetOTP:" destination="-1" eventType="touchUpInside" id="Tq0-kR-2MC"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bko-ID-tPz">
+                    <rect key="frame" x="70" y="458" width="250" height="35"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mã OTP sẽ hết hạn sau" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOR-WG-75R">
+                            <rect key="frame" x="0.0" y="0.0" width="201.66666666666666" height="35"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.078431372549019607" green="0.38431372549019605" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3z-jL-8wk">
+                            <rect key="frame" x="206.66666666666669" y="5.6666666666666856" width="34" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.078431372549019607" green="0.38431372549019605" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="fOR-WG-75R" secondAttribute="bottom" id="53v-s1-7yN"/>
+                        <constraint firstItem="fOR-WG-75R" firstAttribute="top" secondItem="bko-ID-tPz" secondAttribute="top" id="CnB-NJ-ZNf"/>
+                        <constraint firstAttribute="width" constant="250" id="GXf-Eu-Q5N"/>
+                        <constraint firstItem="A3z-jL-8wk" firstAttribute="centerY" secondItem="fOR-WG-75R" secondAttribute="centerY" id="WcJ-FI-ez9"/>
+                        <constraint firstItem="fOR-WG-75R" firstAttribute="leading" secondItem="bko-ID-tPz" secondAttribute="leading" id="qJ9-g0-qZN"/>
+                        <constraint firstItem="A3z-jL-8wk" firstAttribute="leading" secondItem="fOR-WG-75R" secondAttribute="trailing" constant="5" id="s8J-qC-s5e"/>
+                        <constraint firstAttribute="height" constant="35" id="tMd-bL-ScE"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lCq-Kn-bl0">
+                    <rect key="frame" x="113.00000000000001" y="514" width="164.33333333333337" height="33.333333333333371"/>
+                    <color key="tintColor" red="0.078431372549019607" green="0.38431372549019605" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                    <buttonConfiguration key="configuration" style="plain" title="Quay về đăng nhập">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                        <color key="baseForegroundColor" red="0.078431372549019607" green="0.38431372549019605" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="actionToNavigateBackToLogin:" destination="-1" eventType="touchUpInside" id="g9f-Ip-7vg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="pa4-IO-FQR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0Ch-jw-xcf"/>
+                <constraint firstItem="FXj-bG-QDl" firstAttribute="top" secondItem="pa4-IO-FQR" secondAttribute="bottom" constant="65" id="0sk-Ph-sM2"/>
+                <constraint firstItem="GNy-ds-tFK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4TF-xp-VUo"/>
+                <constraint firstItem="a2E-HK-q3Y" firstAttribute="leading" secondItem="FXj-bG-QDl" secondAttribute="trailing" constant="5" id="9en-en-Xco"/>
+                <constraint firstItem="Y94-bO-VRv" firstAttribute="leading" secondItem="FXj-bG-QDl" secondAttribute="leading" id="Anp-8W-4Oy"/>
+                <constraint firstItem="bko-ID-tPz" firstAttribute="top" secondItem="hKk-yo-Hrq" secondAttribute="bottom" constant="10" id="CcL-E7-qJu"/>
+                <constraint firstItem="jIk-HL-zHg" firstAttribute="centerX" secondItem="FXj-bG-QDl" secondAttribute="centerX" id="Df6-lP-Z4U"/>
+                <constraint firstItem="pa4-IO-FQR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="EKT-w1-85L"/>
+                <constraint firstItem="hKk-yo-Hrq" firstAttribute="leading" secondItem="Y94-bO-VRv" secondAttribute="leading" id="EfJ-FB-KPC"/>
+                <constraint firstItem="bko-ID-tPz" firstAttribute="centerX" secondItem="hKk-yo-Hrq" secondAttribute="centerX" id="FnD-1w-Evy"/>
+                <constraint firstItem="lCq-Kn-bl0" firstAttribute="top" secondItem="rzD-tP-oef" secondAttribute="bottom" constant="20" id="JVm-Ry-bKQ"/>
+                <constraint firstItem="hKk-yo-Hrq" firstAttribute="top" secondItem="Y94-bO-VRv" secondAttribute="bottom" constant="40" id="NBL-D5-TOw"/>
+                <constraint firstItem="GNy-ds-tFK" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="NuS-4w-JIU"/>
+                <constraint firstItem="FXj-bG-QDl" firstAttribute="top" secondItem="jIk-HL-zHg" secondAttribute="bottom" constant="10" id="Ocu-Aa-aXR"/>
+                <constraint firstItem="a2E-HK-q3Y" firstAttribute="centerY" secondItem="FXj-bG-QDl" secondAttribute="centerY" id="Pww-m1-eT0"/>
+                <constraint firstAttribute="bottom" secondItem="GNy-ds-tFK" secondAttribute="bottom" id="SVi-ju-uF1"/>
+                <constraint firstItem="FXj-bG-QDl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Tg8-m4-Osv"/>
+                <constraint firstItem="rzD-tP-oef" firstAttribute="leading" secondItem="hKk-yo-Hrq" secondAttribute="leading" id="W0S-Qx-Mo3"/>
+                <constraint firstItem="rzD-tP-oef" firstAttribute="top" secondItem="hKk-yo-Hrq" secondAttribute="bottom" constant="10" id="WI9-wq-4Bq"/>
+                <constraint firstItem="GNy-ds-tFK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dOK-ZH-gFY"/>
+                <constraint firstItem="Y94-bO-VRv" firstAttribute="top" secondItem="FXj-bG-QDl" secondAttribute="bottom" constant="30" id="iWL-yZ-F7N"/>
+                <constraint firstItem="lCq-Kn-bl0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="m9F-Z1-YG5"/>
+            </constraints>
+            <point key="canvasLocation" x="36.92307692307692" y="-11.374407582938389"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login-background" width="375" height="812"/>
+        <image name="login-logo" width="223" height="50"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

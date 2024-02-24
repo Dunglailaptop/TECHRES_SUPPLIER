@@ -1,0 +1,6 @@
+framework module MMMTooltip {
+  umbrella header "MMMTooltip-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21701"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImportInventoryViewController" customModule="TECHRES_SUPPLIER" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewPager" destination="vIx-Y4-mF0" id="rbC-e0-vNR"/>
+                <outlet property="viewPagerNavigationBar" destination="CEp-o0-vcO" id="KMx-3k-35w"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CEp-o0-vcO" customClass="BmoViewPagerNavigationBar" customModule="BmoViewPager">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="d4S-sL-P0n"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vIx-Y4-mF0" customClass="BmoViewPager" customModule="BmoViewPager">
+                    <rect key="frame" x="0.0" y="50" width="414" height="846"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="CEp-o0-vcO" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="2i9-Z7-frP"/>
+                <constraint firstItem="CEp-o0-vcO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CHT-Pd-Yfh"/>
+                <constraint firstAttribute="bottom" secondItem="vIx-Y4-mF0" secondAttribute="bottom" id="Do3-To-Mgi"/>
+                <constraint firstItem="vIx-Y4-mF0" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="FEM-EX-uml"/>
+                <constraint firstItem="vIx-Y4-mF0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FgJ-WA-Psb"/>
+                <constraint firstItem="vIx-Y4-mF0" firstAttribute="top" secondItem="CEp-o0-vcO" secondAttribute="bottom" id="Tan-Z1-EEb"/>
+                <constraint firstItem="CEp-o0-vcO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uEa-bB-PNl"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="91.741071428571431"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="CEp-o0-vcO">
+            <size key="intrinsicContentSize" width="414" height="50"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

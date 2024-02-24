@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="212" id="KGk-i7-Jjw" customClass="AccountsPayableTableViewCell" customModule="TECHRES_SUPPLIER" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="431" height="212"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="431" height="212"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OhH-Bz-jDZ">
+                        <rect key="frame" x="0.0" y="0.0" width="431" height="211"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7KE-2z-MeU">
+                                <rect key="frame" x="16" y="95.666666666666671" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="fJV-Dg-eiW"/>
+                                    <constraint firstAttribute="height" constant="20" id="jeA-0h-sRg"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="icon-uncheck-blue">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionCheck:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3Pa-Zx-tyO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tên nhà hàng" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFP-mk-aCZ">
+                                <rect key="frame" x="44" y="4" width="161" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="8Cr-gK-QEw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tym-cw-asT">
+                                <rect key="frame" x="44" y="37" width="164" height="165"/>
+                                <string key="text">Đèn led nhấp nháy tiện dụng cho máy bay không người lái Dji Mavic Mini Đèn led nhấp nháy tiện dụng cho máy bay không người lái Dji Mavic Mini Đèn led nhấp nháy tiện dụng cho máy bay không người lái Dji Mavic Mini. Đèn led nhấp nháy tiện dụng cho máy bay không người lái Dji Mavic Mini</string>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="0.9137254901960784" green="0.37647058823529411" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-pu-DyV">
+                                <rect key="frame" x="213" y="0.0" width="210" height="211"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PM0-GX-wjA">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="211"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="22/02/2023" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQl-JN-H1H">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="211"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                                <color key="textColor" red="0.49019607840000001" green="0.4941176471" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="LQl-JN-H1H" secondAttribute="bottom" id="7bB-e4-hqG"/>
+                                            <constraint firstItem="LQl-JN-H1H" firstAttribute="top" secondItem="PM0-GX-wjA" secondAttribute="top" id="BvV-RE-XTY"/>
+                                            <constraint firstAttribute="trailing" secondItem="LQl-JN-H1H" secondAttribute="trailing" id="KxN-yn-rxz"/>
+                                            <constraint firstAttribute="width" constant="60" id="wpc-fb-4Bx"/>
+                                            <constraint firstItem="LQl-JN-H1H" firstAttribute="leading" secondItem="PM0-GX-wjA" secondAttribute="leading" id="xmd-Zq-lgW"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSS-ZK-jTr">
+                                        <rect key="frame" x="60" y="0.0" width="150" height="211"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00-00" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3v-lX-UUD">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="211"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                <color key="textColor" red="0.078431372549019607" green="0.38431372549019605" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="V3v-lX-UUD" firstAttribute="top" secondItem="cSS-ZK-jTr" secondAttribute="top" id="O34-9J-h78"/>
+                                            <constraint firstAttribute="trailing" secondItem="V3v-lX-UUD" secondAttribute="trailing" id="OSq-mO-uw2"/>
+                                            <constraint firstItem="V3v-lX-UUD" firstAttribute="leading" secondItem="cSS-ZK-jTr" secondAttribute="leading" id="SNu-C9-tGF"/>
+                                            <constraint firstAttribute="bottom" secondItem="V3v-lX-UUD" secondAttribute="bottom" id="TZF-e0-dl2"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="XsN-Xg-R8W"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7KE-2z-MeU" firstAttribute="leading" secondItem="OhH-Bz-jDZ" secondAttribute="leading" constant="16" id="BJF-Us-LTO"/>
+                            <constraint firstItem="FMO-pu-DyV" firstAttribute="leading" secondItem="XFP-mk-aCZ" secondAttribute="trailing" constant="8" id="JMO-et-J0V"/>
+                            <constraint firstAttribute="bottom" secondItem="tym-cw-asT" secondAttribute="bottom" constant="9" id="OVw-6x-Ega"/>
+                            <constraint firstAttribute="bottom" secondItem="FMO-pu-DyV" secondAttribute="bottom" id="SCN-pR-XIp"/>
+                            <constraint firstItem="FMO-pu-DyV" firstAttribute="leading" secondItem="tym-cw-asT" secondAttribute="trailing" constant="5" id="UiB-LT-sp2"/>
+                            <constraint firstAttribute="trailing" secondItem="FMO-pu-DyV" secondAttribute="trailing" constant="8" id="Xtf-9t-ID8"/>
+                            <constraint firstItem="XFP-mk-aCZ" firstAttribute="top" secondItem="OhH-Bz-jDZ" secondAttribute="top" constant="4" id="d22-KL-Byn"/>
+                            <constraint firstItem="FMO-pu-DyV" firstAttribute="top" secondItem="OhH-Bz-jDZ" secondAttribute="top" id="erw-sx-AEe"/>
+                            <constraint firstItem="tym-cw-asT" firstAttribute="leading" secondItem="7KE-2z-MeU" secondAttribute="trailing" constant="8" id="lK4-pI-OXw"/>
+                            <constraint firstItem="XFP-mk-aCZ" firstAttribute="leading" secondItem="7KE-2z-MeU" secondAttribute="trailing" constant="8" id="mld-uq-usw"/>
+                            <constraint firstItem="tym-cw-asT" firstAttribute="top" secondItem="XFP-mk-aCZ" secondAttribute="bottom" id="y1N-g7-bkP"/>
+                            <constraint firstItem="7KE-2z-MeU" firstAttribute="centerY" secondItem="OhH-Bz-jDZ" secondAttribute="centerY" id="zPA-mk-FjC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="OhH-Bz-jDZ" secondAttribute="bottom" constant="1" id="IrH-YN-sDz"/>
+                    <constraint firstItem="OhH-Bz-jDZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="M9Y-Ez-Htv"/>
+                    <constraint firstItem="OhH-Bz-jDZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZT2-Fg-6Jt"/>
+                    <constraint firstAttribute="trailing" secondItem="OhH-Bz-jDZ" secondAttribute="trailing" id="tb5-qM-yTW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnCheck" destination="7KE-2z-MeU" id="jhE-0S-cFo"/>
+                <outlet property="lbl_created_time" destination="LQl-JN-H1H" id="FYE-l1-OMe"/>
+                <outlet property="lbl_note" destination="tym-cw-asT" id="faX-Q7-Fck"/>
+                <outlet property="lbl_order_code" destination="XFP-mk-aCZ" id="EHk-4d-wrs"/>
+                <outlet property="lbl_total_amount" destination="V3v-lX-UUD" id="71i-vl-lzd"/>
+            </connections>
+            <point key="canvasLocation" x="214.61538461538461" y="66.824644549763036"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-uncheck-blue" width="20" height="20.333333969116211"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
